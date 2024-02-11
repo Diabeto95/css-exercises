@@ -12,6 +12,8 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
 }
 
 .profile-image {
@@ -42,7 +44,17 @@ a {
   text-decoration: none;
   color: rebeccapurple;
 }
-
+.egy{
+  display: flex;
+  align-items: center;
+}
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+.keto{
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
